@@ -1,6 +1,6 @@
 #🎬 Prédiction du Revenu d’un Film
 
-Bienvenue dans notre projet de data science et d'application Streamlit ! 
+Bienvenue dans notre projet python ! 
 Ici, on prédit le revenu estimé (en millions de dollars) d’un film à partir de ses caractéristiques principales comme le genre, le réalisateur, les acteurs, la note IMDb, le metascore.
 
 📌 L'Objectif
@@ -40,8 +40,8 @@ streamlit run movies_success_predict.py
 📂 Organisation des fichiers
 
 .
-├── data/
-│   └── movies_success_predict.csv
+├── data/ /n
+│   └── movies_success_predict.csv /n
 ├── model/
 │   └── movies_success_predict.pkl
 │   └── new_columns.pkl
