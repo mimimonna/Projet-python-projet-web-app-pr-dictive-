@@ -3,9 +3,11 @@
 Bienvenue dans notre projet python ! 
 Ici, on prédit le revenu estimé (en millions de dollars) d’un film à partir de ses caractéristiques principales comme le genre, le réalisateur, les acteurs, la note IMDb, le metascore.
 
+
 📌 L'Objectif
 
 Ce projet a pour but de développer un modèle de machine learning capable de prédire le revenu d’un film sans se baser uniquement sur les chiffres passés mais plutôt sur des éléments connus avant sa sortie. L’application permet de tester différents scénarios facilement.
+
 
 🛠️ Technologies utilisées
 
@@ -14,6 +16,7 @@ Ce projet a pour but de développer un modèle de machine learning capable de pr
 - RandomForestRegressor
 - Streamlit
 - Joblib
+
 
 🧠 Description du modèle
 
@@ -29,6 +32,7 @@ Les variables utilisées pour la prédiction sont :
 🧠 Metascore
 Toutes les variables catégorielles (genre, réalisateur, etc.) sont encodées avec get_dummies.
 
+
 💻 Lancement de l'application
 
 Cloner le repositoire, il faut installer les dépendances :
@@ -37,15 +41,21 @@ pip install -r requirements.txt
 Lancer l'application Streamlit :
 streamlit run movies_success_predict.py
 
+
 📂 Organisation des fichiers
 
 .
-├── data/ /n
-│   └── movies_success_predict.csv /n
+├── data/
+│   └── movies_success_predict.csv
+
 ├── model/
+
 │   └── movies_success_predict.pkl
+
 │   └── new_columns.pkl
+
 ├── movies_success_predict.py
+
 ├── README.md
 
 
