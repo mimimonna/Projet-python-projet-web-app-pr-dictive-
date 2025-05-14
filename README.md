@@ -48,4 +48,5 @@ streamlit run movies_success_predict.py
 ├── movies_success_predict.py
 ├── README.md
 
+
 Ce projet nous a permis de mettre en pratique nos compétences en machine learning et en développement d’interface utilisateur.
