@@ -46,6 +46,7 @@ streamlit run movies_success_predict.py
 
 .
 ├── data/
+
 │   └── movies_success_predict.csv
 
 ├── model/
