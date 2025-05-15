@@ -48,13 +48,13 @@ streamlit run movies_success_predict.py
 
 ├── data/
 
-   └── movies_success_predict.csv
+      └── movies_success_predict.csv
 
 ├── model/
 
-   └── movies_success_predict.pkl
+      └── movies_success_predict.pkl
 
-   └── new_columns.pkl
+      └── new_columns.pkl
 
 ├── movies_success_predict.py
 
