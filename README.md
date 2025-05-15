@@ -2,6 +2,7 @@
 
 Bienvenue dans notre projet python ! 
 Ici, on prédit le revenu estimé (en millions de dollars) d’un film à partir de ses caractéristiques principales comme le genre, le réalisateur, les acteurs, la note IMDb, le metascore.
+Pour réaliser ce travail, nous nous sommes appuyés sur un jeu de données complet et fiable provenant du site Kaggle : https://www.kaggle.com/datasets/therealsampat/predict-movie-success-rate.
 
 
 📌 L'Objectif
@@ -44,16 +45,16 @@ streamlit run movies_success_predict.py
 
 📂 Organisation des fichiers
 
-.
+
 ├── data/
 
-│   └── movies_success_predict.csv
+   └── movies_success_predict.csv
 
 ├── model/
 
-│   └── movies_success_predict.pkl
+   └── movies_success_predict.pkl
 
-│   └── new_columns.pkl
+   └── new_columns.pkl
 
 ├── movies_success_predict.py
 
@@ -61,3 +62,5 @@ streamlit run movies_success_predict.py
 
 
 Ce projet nous a permis de mettre en pratique nos compétences en machine learning et en développement d’interface utilisateur.
+
+Ce projet à été crée par Lilliane, Hugo et Monna , nous sommes des étudiants en data analyse et intelligence artificiel à L'université Panthéon Sorbonne.
