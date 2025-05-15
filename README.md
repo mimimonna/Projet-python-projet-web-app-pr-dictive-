@@ -43,7 +43,7 @@ pip install -r requirements.txt
 Lancer l'application Streamlit :
 streamlit run movies_success_predict.py
 
-
+![image](https://github.com/user-attachments/assets/6319a41e-21bc-4d9a-9811-6a87a93b9639)
 📂 Organisation des fichiers
 
 
