@@ -58,6 +58,8 @@ streamlit run movies_success_predict.py
 
 ├── movies_success_predict.py
 
+├── movies_success_predict.ipynb
+
 ├── README.md
 
 
