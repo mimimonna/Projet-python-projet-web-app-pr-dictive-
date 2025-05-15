@@ -1,4 +1,4 @@
-#🎬 Prédiction du Revenu d’un Film
+🎬 Prédiction du Revenu d’un Film
 
 Bienvenue dans notre projet python ! 
 Ici, on prédit le revenu estimé (en millions de dollars) d’un film à partir de ses caractéristiques principales comme le genre, le réalisateur, les acteurs, la note IMDb, le metascore.
@@ -24,13 +24,14 @@ Ce projet a pour but de développer un modèle de machine learning capable de pr
 Nous avons utilisé un modèle Random Forest Regressor pour entraîner les données.
 Les variables utilisées pour la prédiction sont :
 
-🎞️ Genre
-🎬 Réalisateur
-👥 Acteurs
-📅 Année de sortie
-⏱️ Durée (minutes)
-⭐ Note IMDb
-🧠 Metascore
+- 🎞️ Genre
+- 🎬 Réalisateur
+- 👥 Acteurs
+- 📅 Année de sortie
+- ⏱️ Durée (minutes)
+- ⭐ Note IMDb
+- 🧠 Metascore.
+  
 Toutes les variables catégorielles (genre, réalisateur, etc.) sont encodées avec get_dummies.
 
 
@@ -65,4 +66,4 @@ streamlit run movies_success_predict.py
 
 Ce projet nous a permis de mettre en pratique nos compétences en machine learning et en développement d’interface utilisateur.
 
-Ce projet à été crée par Lilliane, Hugo et Monna , nous sommes des étudiants en data analyse et intelligence artificiel à L'université Panthéon Sorbonne.
+Ce projet à été crée par Lilliane, Hugo et Monna , nous sommes des étudiants en Data Analytic et Intelligence Artificiel à L'université Panthéon Sorbonne.
